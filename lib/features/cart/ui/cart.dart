@@ -88,7 +88,7 @@ class _CartState extends State<Cart> {
         backgroundColor: Colors.teal,
         leading: IconButton(onPressed: (){
           Navigator.pop(context);
-        }, icon: Icon(Icons.arrow_back_ios_outlined,color: Colors.white,)),
+        }, icon: const Icon(Icons.arrow_back_ios_outlined,color: Colors.white,)),
       ),
       body: BlocConsumer<CartBloc, CartState>(
         bloc: cartBloc,
